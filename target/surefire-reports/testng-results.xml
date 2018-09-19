@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite 1" duration-ms="78" started-at="2018-08-17T09:21:23Z" finished-at="2018-08-17T09:21:24Z">
+    <groups>
+      <group name="AgentRule">
+        <method signature="MyTest.AgentAllRule()[pri:0, instance:com.ril.FeedzaiTestScript.MyTest@643b1d11]" name="AgentAllRule" class="com.ril.FeedzaiTestScript.MyTest"/>
+      </group> <!-- AgentRule -->
+    </groups>
+    <test name="Feedzai Automation1" duration-ms="78" started-at="2018-08-17T09:21:23Z" finished-at="2018-08-17T09:21:24Z">
+      <class name="com.ril.FeedzaiTestScript.MyTest">
+        <test-method status="PASS" signature="TestDataSetup()[pri:0, instance:com.ril.FeedzaiTestScript.MyTest@643b1d11]" name="TestDataSetup" is-config="true" duration-ms="20354" started-at="2018-08-17T09:21:03Z" finished-at="2018-08-17T09:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataSetup -->
+        <test-method status="PASS" signature="AgentAllRule()[pri:0, instance:com.ril.FeedzaiTestScript.MyTest@643b1d11]" name="AgentAllRule" duration-ms="0" started-at="2018-08-17T09:21:24Z" description="Pulse Changes-Rule 116" finished-at="2018-08-17T09:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgentAllRule -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.ril.FeedzaiTestScript.MyTest@643b1d11]" name="endReport" is-config="true" duration-ms="0" started-at="2018-08-17T09:21:24Z" finished-at="2018-08-17T09:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.ril.FeedzaiTestScript.MyTest -->
+    </test> <!-- Feedzai Automation1 -->
+  </suite> <!-- suite 1 -->
+</testng-results>

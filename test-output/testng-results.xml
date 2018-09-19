@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="11" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite 1" duration-ms="166352" started-at="2018-09-10T12:20:13Z" finished-at="2018-09-10T12:23:00Z">
+    <groups>
+    </groups>
+    <test name="Feedzai Automation1" duration-ms="166352" started-at="2018-09-10T12:20:13Z" finished-at="2018-09-10T12:23:00Z">
+      <class name="com.ril.FeedzaiTestScript.Feedzai_Rule029_Merchant">
+        <test-method status="PASS" signature="PulseChange_029()[pri:31, instance:com.ril.FeedzaiTestScript.Feedzai_Rule029_Merchant@66480dd7]" name="PulseChange_029" duration-ms="166236" started-at="2018-09-10T12:20:13Z" description="Pulse Changes-Rule 029" finished-at="2018-09-10T12:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PulseChange_029 -->
+      </class> <!-- com.ril.FeedzaiTestScript.Feedzai_Rule029_Merchant -->
+      <class name="com.ril.FeedzaiTestScript.Feedzai_Rule039a_039d_039f_200_165_Consumer">
+        <test-method status="PASS" signature="TestDataSetup()[pri:0, instance:com.ril.FeedzaiTestScript.Feedzai_Rule039a_039d_039f_200_165_Consumer@3327bd23]" name="TestDataSetup" is-config="true" duration-ms="40655" started-at="2018-09-10T12:19:33Z" finished-at="2018-09-10T12:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataSetup -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.ril.FeedzaiTestScript.Feedzai_Rule039a_039d_039f_200_165_Consumer@3327bd23]" name="endReport" is-config="true" duration-ms="3" started-at="2018-09-10T12:23:00Z" finished-at="2018-09-10T12:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.ril.FeedzaiTestScript.Feedzai_Rule039a_039d_039f_200_165_Consumer -->
+    </test> <!-- Feedzai Automation1 -->
+  </suite> <!-- suite 1 -->
+</testng-results>

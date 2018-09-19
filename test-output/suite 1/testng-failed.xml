@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite 1]">
+  <listeners>
+    <listener class-name="com.ril.Feedzai.Utility.RetryListenerClass"/>
+    <listener class-name="com.ril.Feedzai.Utility.ListnerImpl"/>
+  </listeners>
+  <test thread-count="5" name="Feedzai Automation1(failed)">
+    <classes>
+      <class name="com.ril.FeedzaiTestScript.Feedzai_Rule039a_039d_039f_200_165_Consumer">
+        <methods>
+          <include name="endReport"/>
+          <include name="PulseRevert_200"/>
+          <include name="TestDataSetup"/>
+        </methods>
+      </class> <!-- com.ril.FeedzaiTestScript.Feedzai_Rule039a_039d_039f_200_165_Consumer -->
+    </classes>
+  </test> <!-- Feedzai Automation1(failed) -->
+</suite> <!-- Failed suite [suite 1] -->
